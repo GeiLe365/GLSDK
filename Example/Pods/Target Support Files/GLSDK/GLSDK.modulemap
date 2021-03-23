@@ -1,0 +1,6 @@
+framework module GLSDK {
+  umbrella header "GLSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

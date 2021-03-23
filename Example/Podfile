@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GLSDK_Example' do
+  pod 'GLSDK', :path => '../'
+
+  target 'GLSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
